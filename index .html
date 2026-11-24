@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesture Controlled Particles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="info">
+        <h1>Hand Gesture Particles</h1>
+        <h1>shrawani Sakhare</h1>
+        <p>1  | 2  | 3  | 4 </p>
+        <p>: Resize Particles</p>
+    </div>
+
+    <div id="video-container">
+        <video id="webcam" autoplay playsinline></video>
+    </div>
+
+    <!-- Import Maps for Three.js and MediaPipe -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
